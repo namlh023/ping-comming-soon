@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body class="container">
+    <header class="header"><img src="./images/logo.svg" alt="Ping" /></header>
+    <main class="main">
+      <h1 class="title">We are launching <span>soon!</span></h1>
+      <p class="subtitle">Subscribe and get notified</p>
+      <form class="form" novalidate>
+        <input class="email" type="email" placeholder="Your email address..." />
+        <button class="submit" type="submit">Notify me</button>
+        <p class="small-text text-error">
+          Please provide a valid email address
+        </p>
+        <p class="small-text text-success">Submit email success</p>
+      </form>
+      <img
+        class="illustration"
+        src="./images/illustration-dashboard.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </main>
+    <footer class="footer">
+      <ul class="social-links">
+        <li class="social-link">
+          <a href="#" aria-label="Visit our facebook page">
+            <img src="./images/logo-facebook.svg" alt="" aria-hidden="true" />
+          </a>
+        </li>
+        <li class="social-link">
+          <a href="#" aria-label="Visit our twitter page">
+            <img src="./images/logo-twitter.svg" alt="" aria-hidden="true" />
+          </a>
+        </li>
+        <li class="social-link">
+          <a href="#" aria-label="Visit our instagram page">
+            <img src="./images/logo-instagram.svg" alt="" aria-hidden="true" />
+          </a>
+        </li>
+      </ul>
+      <p class="coyright">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

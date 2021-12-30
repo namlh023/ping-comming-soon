@@ -1,0 +1,59 @@
+:root {
+  --ff-primary: "Libre Franklin", sans-serif;
+
+  --fw-300: 300;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --clr-form: hsl(223, 87%, 63%);
+  --clr-border: hsl(223, 100%, 88%);
+  --clr-error: hsl(354, 100%, 66%);
+  --clr-heading: hsl(0, 0%, 59%);
+  --clr-heading-bold: hsl(209, 33%, 12%);
+
+  --fs-text: 0.75rem;
+  --fs-form: 0.75rem;
+  --fs-footer: 0.625rem;
+  --fs-heading: 1.375rem;
+
+  --lh-text: 1.25em;
+  --lh-form: 1.25rem;
+  --lh-footer: 1.2em;
+  --lh-heading: 1.4em;
+
+  --space-xs: 0.625rem;
+  --space-sm: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4.5rem;
+  --space-xxl: 7.5rem;
+
+  --max-width-container: 22rem;
+
+  --logo-width: 3.5rem;
+  --logo-height: 1.5rem;
+
+  --image-width: 20rem;
+  --image-height: 12rem;
+
+  --br-primary: 1.75rem;
+
+  @media (min-width: 50em) {
+    --fs-text: 1.25rem;
+    --fs-form: 1rem;
+    --fs-footer: 0.75rem;
+    --fs-heading: 3rem;
+
+    --space-xs: 1rem;
+    --space-lg: 2.5rem;
+    --space-xl: 5.875rem;
+    --space-xxl: 4.5rem;
+
+    --max-width-container: 42rem;
+
+    --logo-width: 5.625rem;
+    --logo-height: 2.5rem;
+
+    --image-width: 40rem;
+    --image-height: 23.9375rem;
+  }
+}
